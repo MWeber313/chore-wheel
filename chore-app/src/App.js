@@ -36,7 +36,7 @@ function App() {
           <td>N/A</td><br></br>
         </tr>
         <tr>
-          <th>Dishes</th>
+          <th>Floors</th>
           <td>N/A</td><br></br>
           <td>N/A</td><br></br>
           <td>N/A</td><br></br>
@@ -46,7 +46,27 @@ function App() {
           <td>N/A</td><br></br> 
         </tr>
         <tr>
-          <th>Dishes</th>
+          <th>Bathroom</th>
+          <td>N/A</td><br></br>
+          <td>N/A</td><br></br>
+          <td>N/A</td><br></br>
+          <td>N/A</td><br></br>
+          <td>N/A</td><br></br>
+          <td>N/A</td><br></br>
+          <td>N/A</td><br></br> 
+        </tr>
+        <tr>
+          <th>Trash/Recycle </th>
+          <td>N/A</td><br></br>
+          <td>N/A</td><br></br>
+          <td>N/A</td><br></br>
+          <td>N/A</td><br></br>
+          <td>N/A</td><br></br>
+          <td>N/A</td><br></br>
+          <td>N/A</td><br></br> 
+        </tr>
+        <tr>
+          <th>Shared Laundry</th>
           <td>N/A</td><br></br>
           <td>N/A</td><br></br>
           <td>N/A</td><br></br>
