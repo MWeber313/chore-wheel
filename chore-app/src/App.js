@@ -25,55 +25,265 @@ function App() {
           <th>Friday </th><br></br>
           <th>Saturday </th><br></br>
         </tr>
-        <tr>
+        <tr id="dishes">
           <th>Dishes</th>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
         </tr>
-        <tr>
+        <tr id="floors">
           <th>Floors</th>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br> 
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
         </tr>
-        <tr>
+        <tr id="bathroom">
           <th>Bathroom</th>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br> 
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
         </tr>
-        <tr>
-          <th>Trash/Recycle </th>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br> 
+        <tr id="trash">
+          <th>Trash/Recycle</th>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
         </tr>
-        <tr>
-          <th>Shared Laundry</th>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br> 
+        <tr id="laundry">
+          <th>Laundry</th>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
+          <td>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          <span id="">-</span>
+          </td><br></br>
         </tr>
       </table>
     </div>
