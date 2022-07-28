@@ -1,4 +1,5 @@
 import './App.css';
+import {Chorewheel} from './functions/Chore-assigner';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           <th><p><span id="nat">N</span>atalie</p></th><br></br>
         </tr>
       </table>
-      <button>Click to Assign!</button>
+      <button onClick={()=>Chorewheel()}>Click to Assign!</button>
       <table>
         <tr>
           <th></th>
@@ -27,49 +28,49 @@ function App() {
         </tr>
         <tr id="dishes">
           <th>Dishes</th>
-          <td>
+          <td id="dishes">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="dishes">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="dishes">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="dishes">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="dishes">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="dishes">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="dishes">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
@@ -79,49 +80,49 @@ function App() {
         </tr>
         <tr id="floors">
           <th>Floors</th>
-          <td>
+          <td id="floors">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="floors">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="floors">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="floors">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="floors">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="floors">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="floors">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
@@ -131,49 +132,49 @@ function App() {
         </tr>
         <tr id="bathroom">
           <th>Bathroom</th>
-          <td>
+          <td id="bathroom">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="bathroom">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="bathroom">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="bathroom">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="bathroom">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="bathroom">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="bathroom">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
@@ -183,49 +184,49 @@ function App() {
         </tr>
         <tr id="trash">
           <th>Trash/Recycle</th>
-          <td>
+          <td id="trash">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="trash">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="trash">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="trash">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="trash">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="trash">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="trash">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
@@ -235,49 +236,49 @@ function App() {
         </tr>
         <tr id="laundry">
           <th>Laundry</th>
-          <td>
+          <td id="laundry">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="laundry">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="laundry">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="laundry">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="laundry">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="laundry">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
           </td><br></br>
-          <td>
+          <td id="laundry">
           <span id="">-</span>
           <span id="">-</span>
           <span id="">-</span>
