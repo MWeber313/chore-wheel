@@ -1,5 +1,19 @@
 import './App.css';
 
+let assignment_names = {
+  0: 'Jason',
+  1: 'Jason',
+  2: 'Darian',
+  3: 'Darian',
+  4: 'Amanda',
+  5: 'Amanda',
+  6: 'Miles',
+  7: 'Miles',
+  8: 'Natalie',
+  9: 'Natalie',
+}
+
+
 function App() {
   return (
     <div className="App">
@@ -17,16 +31,21 @@ function App() {
       <table>
         <tr>
           <th></th>
-          <th>Sunday </th><br></br>
-          <th>Monday </th><br></br>
-          <th>Tuesday </th><br></br>
-          <th>Wednesday </th><br></br>
-          <th>Thursday </th><br></br>
-          <th>Friday </th><br></br>
-          <th>Saturday </th><br></br>
+          <th>Sunday</th><br></br>
+          <th>Monday</th><br></br>
+          <th>Tuesday</th><br></br>
+          <th>Wednesday</th><br></br>
+          <th>Thursday</th><br></br>
+          <th>Friday</th><br></br>
+          <th>Saturday</th><br></br>
         </tr>
         <tr>
           <th>Dishes</th>
+          {assignment_names.map((assign) => {
+            <div>
+              <td>{assign}</td>
+            </div>
+          })}
           <td>N/A</td><br></br>
           <td>N/A</td><br></br>
           <td>N/A</td><br></br>
