@@ -1,4 +1,7 @@
 let Chorewheel = () => {
+    let schedule = [
+        {day: 'Sunday', chores: ['J', 'J', 'D', 'M']}
+    ]
     let assignment_names = {
         0: 'Jason',
         1: 'Jason',

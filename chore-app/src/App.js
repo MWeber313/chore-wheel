@@ -1,17 +1,13 @@
 import './App.css';
 
-let assignment_names = {
-  0: 'Jason',
-  1: 'Jason',
-  2: 'Darian',
-  3: 'Darian',
-  4: 'Amanda',
-  5: 'Amanda',
-  6: 'Miles',
-  7: 'Miles',
-  8: 'Natalie',
-  9: 'Natalie',
-}
+let weekdays = [
+  'Sunday',
+  'Monday',
+  'Tuesday',
+  'Wednesday',
+  'Thursday',
+  'Friday'
+]
 
 
 function App() {
@@ -29,7 +25,13 @@ function App() {
       </table>
       <button>Click to Assign!</button>
       <table>
-        <tr>
+        {weekdays.map((i) => {
+          console.log(weekdays[i])
+          <div>
+            <th>{weekdays[i]}</th>
+          </div>
+        })}
+        {/* <tr>
           <th></th>
           <th>Sunday</th><br></br>
           <th>Monday</th><br></br>
@@ -38,14 +40,9 @@ function App() {
           <th>Thursday</th><br></br>
           <th>Friday</th><br></br>
           <th>Saturday</th><br></br>
-        </tr>
+        </tr> */}
         <tr>
           <th>Dishes</th>
-          {assignment_names.map((assign) => {
-            <div>
-              <td>{assign}</td>
-            </div>
-          })}
           <td>N/A</td><br></br>
           <td>N/A</td><br></br>
           <td>N/A</td><br></br>
