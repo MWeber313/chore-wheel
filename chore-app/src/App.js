@@ -24,74 +24,16 @@ function App() {
         </tr>
       </table>
       <button>Click to Assign!</button>
-      <table>
-        {weekdays.map((i) => {
+      {weekdays.map((i) => {
           console.log(weekdays[i])
           <div>
+            <table>
+            <tr>
             <th>{weekdays[i]}</th>
+            </tr>
+          </table>
           </div>
-        })}
-        {/* <tr>
-          <th></th>
-          <th>Sunday</th><br></br>
-          <th>Monday</th><br></br>
-          <th>Tuesday</th><br></br>
-          <th>Wednesday</th><br></br>
-          <th>Thursday</th><br></br>
-          <th>Friday</th><br></br>
-          <th>Saturday</th><br></br>
-        </tr> */}
-        <tr>
-          <th>Dishes</th>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-        </tr>
-        <tr>
-          <th>Floors</th>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br> 
-        </tr>
-        <tr>
-          <th>Bathroom</th>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br> 
-        </tr>
-        <tr>
-          <th>Trash/Recycle </th>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br> 
-        </tr>
-        <tr>
-          <th>Shared Laundry</th>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br>
-          <td>N/A</td><br></br> 
-        </tr>
-      </table>
+        })}  
     </div>
   );
 }
