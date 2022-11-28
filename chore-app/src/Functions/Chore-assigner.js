@@ -1,26 +1,28 @@
 
 
 let Chorewheel = () => {
-    
-    let jason = document.querySelector('#jason');
-    // let darian = document.getElementbyId("darian");
-    // let amanda = document.getElementbyId("amanda");
-    // let miles = document.getElementbyId("miles");
-    // let nat = document.getElementbyId("nat");
-    
-    // // the above variables will be used to set span tag ids the proper id when assigning a chore
-
-    // let dishes = document.getElementsbyId("dishes");
-    // let floors = document.getElementsbyId("floors");
-    // let bathroom = document.getElementsbyId("bathroom");
-    // let trash = document.getElementsbyId("trash");
-    // let laundry = document.getElementsbyId("laundry");
-
-    // // the above variables will be tested to see if I can iterate through table data by selecting the row.
-    // // the above element ids are on the rows of the table
-    
-    // console.log(dishes)
-    console.log(jason)
+    let schedule = [
+        {day: 'Sunday', chores: ['J', 'J', 'D', 'M']}
+    ]
+    let assignment_names = {
+        0: 'Jason',
+        1: 'Jason',
+        2: 'Darian',
+        3: 'Darian',
+        4: 'Amanda',
+        5: 'Amanda',
+        6: 'Miles',
+        7: 'Miles',
+        8: 'Natalie',
+        9: 'Natalie',
+    }
+    let chore_list = [
+        'Dishes',
+        'Floors',
+        'Bathroom',
+        'Trash',
+        'Laundry'
+    ]
 }
 
 export {Chorewheel}
