@@ -2,6 +2,7 @@ import './App.css';
 import {Chorewheel} from './functions/Chore-assigner';
 
 let weekdays = [
+  '',
   'Sunday',
   'Monday',
   'Tuesday',
@@ -10,31 +11,28 @@ let weekdays = [
   'Friday'
 ]
 
+let chores = [
+  'Dishes',
+  'Floors',
+  'Bathroom',
+  'Laundry',
+  'Trash'
+]
 
 function App() {
   return (
     <div className="App">
       <button>Click to Assign!</button>
-      {/* {weekdays.map((i) => {
-        return (
-          console.log(weekdays[i])
-          <div>
-            <table>
-            <tr>
-            <th>{weekdays[i]}</th>
-            </tr>
-          </table>
-          </div>
-        )
-        })}  
-     */}
-     <table>
-     <tr>     
-     {weekdays.map(weekday => 
-       <th>{weekday}</th>
-      )}
-      </tr>
-     </table>
+      <table>
+        <tr><th></th></tr>
+        <tr>     
+          {weekdays.map(weekday => 
+            <th>{weekday}</th>
+          )}
+        </tr>
+        {chores.map(chore => 
+          <tr><th>{chore}</th></tr>)}
+      </table>
     </div>
   );
 }
