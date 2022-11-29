@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <button>Click to Assign!</button>
-      {weekdays.map((i) => {
+      {/* {weekdays.map((i) => {
         return (
           console.log(weekdays[i])
           <div>
@@ -27,6 +27,14 @@ function App() {
           </div>
         )
         })}  
+     */}
+     <table>
+     <tr>     
+     {weekdays.map(weekday => 
+       <th>{weekday}</th>
+      )}
+      </tr>
+     </table>
     </div>
   );
 }
