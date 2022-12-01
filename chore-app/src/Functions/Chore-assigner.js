@@ -1,3 +1,5 @@
+
+
 let Chorewheel = () => {
     let schedule = [
         {day: 'Sunday', chores: ['J', 'J', 'D', 'M']}
@@ -23,4 +25,4 @@ let Chorewheel = () => {
     ]
 }
 
-export default Chorewheel;
+export {Chorewheel}
